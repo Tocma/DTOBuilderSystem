@@ -29,8 +29,9 @@ import java.util.Objects;
  * </ul>
  * </p>
  * 
- * @author [作成者名]
- * @version 1.0
+ * @author Nakano
+ * @version 2.0.0
+ * @since 2025-03-26
  */
 public class EngineerDTO {
     // 必須フィールド
