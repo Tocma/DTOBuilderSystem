@@ -1,0 +1,225 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "起動: TestCoreSystem (すべてのテストケース一覧表示)",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem"
+        },
+        {
+            "type": "java",
+            "name": "テストケース1: 正常系 - 必須項目のみ設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["1"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース2: 正常系 - すべての項目を設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["2"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース3: 異常系 - 社員ID未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["3"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース4: 異常系 - 氏名未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["4"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース5: 異常系 - フリガナ未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["5"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース6: 異常系 - 生年月日未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["6"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース7: 異常系 - 入社年月未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["7"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース8: 異常系 - エンジニア歴が負の値",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["8"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース9: 異常系 - プログラミング言語未設定",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["9"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース10: 異常系 - 技術力の評価範囲外（0.5）",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["10"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース11: 異常系 - 技術力の評価範囲外（5.5）",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["11"]
+        },
+        {
+            "type": "java",
+            "name": "テストケース12: 異常系 - 受講態度の評価範囲外",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": ["12"]
+        },
+        {
+            "type": "java",
+            "name": "カスタムテスト - 山田太郎（経験者）",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": [
+                "13", 
+                "ID00001", 
+                "山田太郎", 
+                "ヤマダタロウ", 
+                "1990-01-15", 
+                "2015-04-01", 
+                "8", 
+                "Java,Python,JavaScript", 
+                "大手SIer5年,ベンチャー3年", 
+                "Java研修,AWS研修", 
+                "4.5", 
+                "4.0", 
+                "3.5", 
+                "3.0", 
+                "特になし"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "カスタムテスト - 鈴木花子（新人）",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": [
+                "13", 
+                "ID00002", 
+                "鈴木花子", 
+                "スズキハナコ", 
+                "1997-06-21", 
+                "2024-04-01", 
+                "0", 
+                "Java,SQL", 
+                "新卒入社", 
+                "新人研修受講中", 
+                "2.0", 
+                "4.5", 
+                "3.8", 
+                "2.5", 
+                "コミュニケーション能力が高い"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "カスタムテスト - 佐藤次郎（管理職）",
+            "request": "launch",
+            "mainClass": "test.TestCoreSystem",
+            "projectName": "EngineerManagementSystem",
+            "args": [
+                "13", 
+                "ID00003", 
+                "佐藤次郎", 
+                "サトウジロウ", 
+                "1980-11-05", 
+                "2010-04-01", 
+                "15", 
+                "Java,C++,Python,Go,SQL,Kotlin", 
+                "メガバンクシステム開発10年,当社5年", 
+                "プロジェクトマネジメント研修,AWS認定ソリューションアーキテクト", 
+                "4.8", 
+                "4.2", 
+                "4.7", 
+                "4.9", 
+                "部門リーダー、メンター担当"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "全テストケース実行（バッチ実行）",
+            "request": "launch",
+            "mainClass": "test.TestCaseBatchRunner",
+            "projectName": "EngineerManagementSystem",
+            "console": "integratedTerminal"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "正常系テストまとめて実行",
+            "configurations": [
+                "テストケース1: 正常系 - 必須項目のみ設定", 
+                "テストケース2: 正常系 - すべての項目を設定"
+            ]
+        },
+        {
+            "name": "必須項目バリデーションテストまとめて実行",
+            "configurations": [
+                "テストケース3: 異常系 - 社員ID未設定",
+                "テストケース4: 異常系 - 氏名未設定",
+                "テストケース5: 異常系 - フリガナ未設定",
+                "テストケース6: 異常系 - 生年月日未設定",
+                "テストケース7: 異常系 - 入社年月未設定",
+                "テストケース8: 異常系 - エンジニア歴が負の値",
+                "テストケース9: 異常系 - プログラミング言語未設定"
+            ]
+        },
+        {
+            "name": "評価項目範囲検証テストまとめて実行",
+            "configurations": [
+                "テストケース10: 異常系 - 技術力の評価範囲外（0.5）",
+                "テストケース11: 異常系 - 技術力の評価範囲外（5.5）",
+                "テストケース12: 異常系 - 受講態度の評価範囲外"
+            ]
+        },
+        {
+            "name": "カスタムテストまとめて実行",
+            "configurations": [
+                "カスタムテスト - 山田太郎（経験者）",
+                "カスタムテスト - 鈴木花子（新人）",
+                "カスタムテスト - 佐藤次郎（管理職）"
+            ]
+        }
+    ]
+}
